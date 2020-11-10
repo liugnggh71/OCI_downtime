@@ -1,0 +1,5 @@
+echo "cat //ip/text()" | xmllint --shell hr-exa_db_hosts.xml | grep -v "\-\-" | grep -v "\/" > host_list.txt # search IP HR
+echo "cat //ip/text()" | xmllint --shell hr-exa_db_hosts.xml | grep -v "\-\-" | grep -v "\/" > host_list.txt# search DNS HR
+
+echo "cat //ip/text()" | xmllint --shell Sample_exa_db_hosts.xml | grep -v "\-\-" | grep -v "\/" > host_list.txt # search IP Sample
+echo "cat //ip/text()" | xmllint --shell Sample_exa_db_hosts.xml | grep -v "\-\-" | grep -v "\/" > host_list.txt# search DNS Sample

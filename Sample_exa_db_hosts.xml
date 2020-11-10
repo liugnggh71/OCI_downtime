@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="OCI_downtime.xsl"?>
+
+<hosts>
+    <host>
+        <dns_name>autp-hroradb-utzrk1.sample.com</dns_name>
+        <ip>10.21.32.105</ip>
+    </host>
+    <host>
+        <dns_name>autp-hroradb-utzrk2.sample.com</dns_name>
+        <ip>10.21.32.106</ip>
+    </host>
+    <host>
+        <dns_name>aupp-hroradb-f9exx1.sample.com</dns_name>
+        <ip>10.21.32.2</ip>
+    </host>
+    <host>
+        <dns_name>aupp-hroradb-f9exx2.sample.com</dns_name>
+        <ip>10.21.32.3</ip>
+    </host>
+    <host>
+        <dns_name>aupp-hroradb-bfcfz1.sample.com</dns_name>
+        <ip>10.21.137.2</ip>
+    </host>
+    <host>
+        <dns_name>aupp-hroradb-bfcfz2.sample.com</dns_name>
+        <ip>10.21.137.3</ip>
+    </host>
+</hosts>
+
